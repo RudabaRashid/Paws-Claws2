@@ -94,9 +94,10 @@ const HomeScreen = ({navigation}) => {
         <Text style={{color: COLORS.primary, fontWeight: 'bold', fontSize: 16}}>
           PAWS&CLAWS
         </Text>
-        <Image
-          source={require('../../assets/person.jpg')}
+        <Image onPress={()=>navigation.navigate("UserProfile")}
+          source={require('../../assets/catlover.jpg')}
           style={{height: 30, width: 30, borderRadius: 25}}
+          
           
         />
       </View>

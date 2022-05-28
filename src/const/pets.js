@@ -64,7 +64,7 @@ const pets = [
     ],
   },
   {
-    pet: 'bunnies',
+    pet: 'mammals',
     pets: [
       {
         id: '1',

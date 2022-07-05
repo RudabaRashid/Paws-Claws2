@@ -18,15 +18,15 @@ import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 
 
 
-{/*const UserProfile =({navigation}) =>{
+const SplashScreen =({navigation}) =>{
     return (
         <View>
-        <Text>UserProfile</Text>
-        <Button title="UserProfile" onPress={()=>navigation.navigate("SignUp")}></Button>
+        <Text>Splash Screen</Text>
+        <Button title="Splash Screen" onPress={()=>navigation.navigate("SignIn")}></Button>
     </View>
     );
-};*/}
+};
 
 
-export default UserProfile;
+export default SplashScreen;
 

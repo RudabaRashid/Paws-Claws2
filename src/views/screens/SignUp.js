@@ -171,7 +171,7 @@ const SignUp =({navigation}) =>{
             marginTop: 40,
             marginBottom: 20,
           }}>
-          <Text style={{color: COLORS.dark, fontWeight: 'bold'}}>
+          <Text style={{color: COLORS.dark, fontWeight: 'bold'}}onPress={()=>navigation.navigate("UserProfile")}>
             Already have an account ?
           </Text>
           <TouchableOpacity onPress={() => navigation.goBack()}>
